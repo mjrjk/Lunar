@@ -13,8 +13,8 @@
         android:layout_height="match_parent"
         android:background="@color/colorPrimary"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="201dp">
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="301dp">
 
 
         <Button
@@ -53,6 +53,19 @@
             android:layout_marginTop="83dp"
             android:ems="10"
             android:inputType="number"
-            android:text="2020"/>
+            android:text="2020" />
+
+        <Button
+            android:id="@+id/buttonAlg"
+            android:layout_width="179dp"
+            android:layout_height="59dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="115dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="42dp"
+            android:text="Zmień algorytm" />
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
