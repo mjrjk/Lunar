@@ -1,6 +1,7 @@
 package com.firstapp.lunar
 
 import android.app.Notification
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -16,6 +17,12 @@ class activity_full_moon : AppCompatActivity() {
 
         increase()
         decrease()
+
+        val btnOpenActivity = findViewById<TextView>(R.id.buttonAlg)
+        btnOpenActivity.setOnClickListener {
+            val intent = Intent(this, ChooseAlgorithm :: class.java)
+            startActivity(intent)
+        }
     }
 
     private fun increase(){
