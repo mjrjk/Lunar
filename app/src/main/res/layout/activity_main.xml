@@ -12,14 +12,14 @@
         android:layout_height="match_parent"
         android:background="@color/colorPrimary"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="244dp" >
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="360dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@+id/button"
-            android:layout_marginBottom="379dp"
+            android:layout_marginBottom="430dp"
             android:gravity="center_horizontal"
             android:text="@string/title"
             android:textAlignment="center"
@@ -41,6 +41,57 @@
             android:layout_marginRight="116dp"
             android:layout_marginBottom="56dp"
             android:text="@string/button" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="165dp"
+            android:layout_marginRight="165dp"
+            android:layout_marginBottom="224dp"
+            android:text="TextView"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="284dp"
+            android:layout_height="258dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="63dp"
+            android:layout_marginRight="63dp"
+            android:layout_marginBottom="265dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="187dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="158dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,8 +13,8 @@
         android:layout_height="match_parent"
         android:background="@color/colorPrimary"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="301dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-28dp">
 
 
         <Button
@@ -66,6 +66,15 @@
             android:layout_marginRight="115dp"
             android:layout_marginBottom="42dp"
             android:text="Zmień algorytm" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="435dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="165dp"
+            android:layout_marginBottom="131dp" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
